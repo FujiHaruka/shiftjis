@@ -1,16 +1,3 @@
-# shiftjis
-
-Simple iconv-lite wrapper to encode / decode Shift-JIS.
-
-## Install
-
-```
-$ npm install shiftjis
-```
-
-## Usage
-
-```js
 const fs = require('fs')
 const {promisify} = require('util')
 const readFileAsync = promisify(fs.readFile)
@@ -31,4 +18,5 @@ describe('shiftjis', () => {
     equal(decoded, str)
   })
 })
-```
+
+/* global describe it */

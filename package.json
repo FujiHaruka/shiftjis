@@ -1,9 +1,12 @@
 {
-  "name": "shiftjis-utf8",
+  "name": "shiftjis",
   "version": "1.0.0",
-  "description": "Simple iconv-lite wrapper to convert Shift-JIS and utf-8",
+  "description": "Simple iconv-lite wrapper to encode / decode Shift-JIS",
   "main": "lib",
-  "repository": "https://github.com/FujiHaruka/shiftjis-utf8.git",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "https://github.com/FujiHaruka/shiftjis.git",
   "author": "FujiHaruka",
   "license": "MIT",
   "devDependencies": {
